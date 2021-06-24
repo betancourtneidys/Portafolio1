@@ -177,16 +177,20 @@
         </div>
       </section>
       <section class="contacto-container">
-        <div class="wrapper">
-          <section class="contacto">
-            <h1>Contacto</h1>
-            <p> Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto. </p>
-            <input class="input-contacto" type="text" placeholder="Nombre completo">
-            <input class="input-contacto" type="text" placeholder="Correo electrónico">
-            <input class="input-contacto1"type="text" placeholder="Mensaje">
-            <button class="button-contacto"> Enviar mensaje </button>
-          </section>
-        </div>
+        <form action="" class="contacto">
+          <h1>Contacto</h1>
+          <p> Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto. </p>
+          <label for="nombre">
+						<input type="text" id="nombre" placeholder="Nombre completo" autocomplete="name" required/>
+					</label>
+					<label for="email">
+						<input type="email" id="email" placeholder="Correo electrónico" autocomplete="email" required/>
+					</label>
+					<label for="mensaje">
+						<input type="text" id="mensaje" placeholder="Mensaje" required/>
+					</label>
+					<input type="submit" class="button-contacto" value="Enviar mensaje"/>
+        </form>
       </section>
     </main>
     <footer class="footer-container">
