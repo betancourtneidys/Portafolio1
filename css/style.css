@@ -14,9 +14,10 @@ p {
 }
 
 .wrapper {
-  width: 1366px;
+  width: 100%;
   padding: 0 72px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .header-container {
@@ -78,7 +79,6 @@ p {
   line-height: 80px;
   font-weight: 700;
   font-family: 'Nunito', sans-serif;
-  width: 703px;
   margin: 0;
 }
 
@@ -125,11 +125,10 @@ p {
 }
 
 .niko-contents {
-  background-image: url(images/1.png);
+  background-image: url("../images/1.png");
   height: 540px;
   /* background-size: 1500px; */
   background-repeat: no-repeat;
-  width: 1200px;
   margin: auto;
 }
 
@@ -185,18 +184,17 @@ p {
   display: flex;
   gap: 45px;
   margin: 56px auto 0 ;
-  width: 1200px;
 }
 
 .prince {
-  background-image: url(images/bg.png);
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   height: 470px;
   width: 575px;
 }
 
 .amazon {
-  background-image: url(images/2.png);
+  background-image: url("../images/2.png");
   background-repeat: no-repeat;
   height: 470px;
   width: 575px;
@@ -362,15 +360,14 @@ p {
 
 .text {
   color: white;
-  width: 391.33px;
   font-size: 24px;
   line-height: 40px;
   margin: 0;
 }
 
 .testimonio {
-  width: 391.33px;
   height: 265px;
+  padding: 0 12px;
 }
 
 .testimonio.section {
@@ -380,6 +377,7 @@ p {
 .image img{
   margin-top: 80px;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .contacto-container {
@@ -412,17 +410,7 @@ p {
   color: #A7A9BE;
 }
 
-.input-contacto {
-  width: 450px;
-  border: none;
-  outline: none;
-  height: 64px;
-  margin: 16px 0;
-  padding-left: 10px;
-  cursor: pointer;
-}
-
-.input-contacto1 {
+.contacto input{
   width: 450px;
   border: none;
   outline: none;
