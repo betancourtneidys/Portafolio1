@@ -403,14 +403,8 @@ p {
 }
 
 .button-contacto {
-  width: 460px;
-  border: none;
-  outline: none;
-  height: 64px;
-  margin: 16px 0;
   background: #FF8906;
   color: white;
-  cursor: pointer;
 }
 
 .footer-icon {
