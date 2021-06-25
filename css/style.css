@@ -19,41 +19,45 @@ p {
 }
 
 .main-nav {
-  background: #0F0E17;
+  background-color: #0F0E17;
   padding: 32px 72px;
-  display: flex;
-  align-items: center;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  gap: 40px;
 }
 
-.main-nav li {
+.main-nav__item {
   color: white;
   font-size: 20px;
   line-height: 32px;
   cursor: pointer;
-  list-style: none;
+  display: inline-block;
+  margin: 0 18px;
 }
 
-.main-nav li:hover {
+.main-nav__item a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.main-nav__item a:hover {
   color:#f3ab67;
-  text-decoration: underline;
 }
 
 .main-nav .download-button {
-  margin-left: auto;
+  float: right;
+  list-style: none;
 }
 
-.btn-header {
+.main-nav .download-button button {
   color: white;
   background: #FF8906;
   padding: 12px 24px;
   font-size: 16px;
-  line-height: 24px;
   cursor: pointer;
   border: none;
   outline: none;
+  border-radius: 3px;
 }
 
 .hero-contents {
