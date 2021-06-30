@@ -1,5 +1,11 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+}
+
+html {
+  font-size: 100%;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,14 +21,11 @@ p {
   width: 100%;
   padding: 0 72px;
   margin: auto;
-  box-sizing: border-box;
 }
 
 .main-nav {
   background-color: #0F0E17;
   padding: 35px 72px;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
   list-style: none;
 }
 
@@ -56,31 +59,28 @@ p {
   border-radius: 3px;
 }
 
-.hero-contents {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 80px 0;
-}
-
 .hero {
   background: #0F0E17;
   color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px;
 }
 
 .hero-presentation h1 {
   font-size: 64px;
   line-height: 80px;
   font-weight: 700;
-  margin: 0;
 }
 
-.hero-presentation p {
+.hero-presentation h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 40px;
-  width: 526px;
+  width: 90%;
   height: 144px;
+  margin-top: 20px;
 }
 
 .proyectos-container {
@@ -100,7 +100,7 @@ p {
 }
 
 .proyectos-description h2{
-  width: 520px;
+  width: 100%;
   margin-right: 104px;
   font-weight: 700;
   font-size: 48px;
@@ -109,36 +109,32 @@ p {
 }
 
 .proyectos-description p {
-  width: 450px;
+  width: 100%;
   font-size: 24px;
   font-weight: 400;
   line-height: 40px;
-  margin: 0;
 }
 
 .niko-contents {
   background-image: url("../images/1.png");
   height: 540px;
-  /* background-size: 1500px; */
   background-repeat: no-repeat;
   margin: auto;
 }
 
 .niko {
-  width: 550px;
+  width: 55%;
   color: white;
   background: #0F0E17;
   position: relative;
   top: 80px;
   right: 25px;
   padding: 64px 24px 24px 24px;
-
 }
 
 .niko h3 {
   font-size: 24px;
   line-height: 32px;
-  margin: 0;
 }
 
 .niko p {
@@ -146,8 +142,7 @@ p {
   line-height: 40px;
   font-weight: 400;
   color: #A7A9BE;
-  margin: 0;
-  width: 480px
+  width: 100%;
 }
 
 
@@ -181,23 +176,22 @@ p {
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   height: 470px;
-  width: 575px;
+  width: 100%;
 }
 
 .amazon {
   background-image: url("../images/2.png");
   background-repeat: no-repeat;
   height: 470px;
-  width: 575px;
+  width: 100%;
 }
 
 .prince-contents{
-  width: 511px;
+  width: 95%;
   height: 316px;
   background: #0F0E17;
   color: white;
   padding: 64px 24px 24px 24px;
-  box-sizing: border-box;
   position: relative;
   top: 85px;
   right: 25px;
@@ -205,7 +199,6 @@ p {
 
 .prince-contents h3 {
   font-weight: 700;
-  margin: 0;
   font-size: 24px;
   line-height: 32px;
 }
@@ -214,17 +207,15 @@ p {
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-  margin: 0;
   color: #A7A9BE;
 }
 
 .amazonas-contents {
-  width: 511px;
+  width: 95%;
   background: #0F0E17;
   height: 316px;
   color: white;
   padding: 64px 24px 24px 24px;
-  box-sizing: border-box;
   position: relative;
   top: 85px;
   right: 25px;
@@ -232,7 +223,6 @@ p {
 
 .amazonas-contents h3 {
   font-weight: 700;
-  margin: 0;
   font-size: 24px;
   line-height: 32px;
 }
@@ -241,7 +231,6 @@ p {
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-  margin: 0;
   color: #A7A9BE;
 }
 
@@ -258,7 +247,6 @@ p {
 }
 
 .ver-proyectos p{
-  margin: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -278,14 +266,12 @@ p {
 .services-title {
   font-size: 48px;
   line-height: 56px;
-  margin: 0;
   font-weight: 700;
 }
 
 .services-contents h3 {
   font-size: 32px;
   line-height: 40px;
-  margin: 0;
   font-weight: 700;
   margin-top: 48px;
 }
@@ -306,12 +292,11 @@ p {
   outline: none;
   cursor: pointer;
   color: #FF8906;
-  padding: 12px 24px;
+  padding: 0px 24px;
   gap: 10px;
 }
 
 .services-button p {
-  margin: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -344,7 +329,6 @@ p {
   color: white;
   font-size: 24px;
   line-height: 40px;
-  margin: 0;
 }
 
 .testimonio {
@@ -358,7 +342,6 @@ p {
 
 .image img{
   margin-top: 80px;
-  margin-bottom: 0;
   width: 100%;
 }
 
@@ -368,8 +351,7 @@ p {
 }
 
 .contacto {
-  width: 450px;
-  /* height: 734px; */
+  width: 44%;
   margin: auto;
   padding: 48px ;
   background: #0F0E17;
@@ -380,7 +362,6 @@ p {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  margin: 0;
   color:  #FFFFFE;
 }
 
@@ -388,23 +369,26 @@ p {
   font-size: 20px;
   line-height: 32px;
   margin: 16px 0;
-  width: 450px;
+  width: 90%;
   color: #A7A9BE;
 }
 
 .contacto input{
-  width: 450px;
+  width: 100%;
   border: none;
   outline: none;
   height: 64px;
   margin: 16px 0;
-  padding-left: 10px;
   cursor: pointer;
+  padding: 0px 17px;
+  border-radius: 3px;
 }
+
 
 .button-contacto {
   background: #FF8906;
   color: white;
+  border-radius: 3px;
 }
 
 .footer-icon {
@@ -423,24 +407,18 @@ p {
   background: #0F0E17;
   height: 145px;
   padding: 48px 0;
-  box-sizing: border-box;
 }
 
-.footer p {
-  margin: 0;
-}
 .p-footer {
   display: flex;
   align-items: center;
   gap: 5px;
   font-size: 20px;
   line-height: 32px;
-
 }
 
 .p-footer img {
   width: 22px;
-  margin: 0;
   position: relative;
   top: 4px;
 }
