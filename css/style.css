@@ -71,7 +71,10 @@ p {
 .hero-presentation h1 {
   font-size: 64px;
   line-height: 80px;
-  font-weight: 700;
+}
+
+.hero-presentation h1:hover {
+  color: #EA5455;
 }
 
 .hero-presentation h2 {
@@ -79,19 +82,26 @@ p {
   font-weight: 400;
   line-height: 40px;
   width: 90%;
-  height: 144px;
   margin-top: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
 }
 
 .proyectos-container {
   background: white;
+  width: 100%;
+  padding: 0 72px;
+  margin: auto;
 }
 
 .proyectos-description {
   display: flex;
   align-items: flex-start;
   margin-bottom: 76px;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .proyectos {
@@ -169,21 +179,21 @@ p {
 .prince-amazon {
   display: flex;
   gap: 45px;
-  margin: 56px auto 0 ;
+  margin: 56px auto 0;
 }
 
 .prince {
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   height: 470px;
-  width: 100%;
+  width: 50%;
 }
 
 .amazon {
   background-image: url("../images/2.png");
   background-repeat: no-repeat;
   height: 470px;
-  width: 100%;
+  width: 50%;
 }
 
 .prince-contents{
@@ -254,7 +264,9 @@ p {
 
 .services {
   background: linear-gradient(to right, #FEB692 , #EA5455 );
-  padding: 80px 0;
+  width: 100%;
+  padding: 80px 72px;
+  margin: auto;
 }
 
 .services-contents {
@@ -304,7 +316,9 @@ p {
 
 .testimonials-container {
   background: #0F0E17;
-  padding: 80px 0 0 ;
+  width: 100%;
+  padding: 80px 72px;
+  margin: auto;
 }
 
 .testimonials {
@@ -406,7 +420,9 @@ p {
 .footer-container {
   background: #0F0E17;
   height: 145px;
-  padding: 48px 0;
+  padding: 48px 72px;
+  width: 100%;
+  margin: auto;
 }
 
 .p-footer {
@@ -421,4 +437,210 @@ p {
   width: 22px;
   position: relative;
   top: 4px;
+}
+
+@media (max-width: 480px) {
+  .main-nav {
+    padding: 18px 10px;
+  }
+  .main-nav__item {
+    font-size: 15px;
+    margin: 0 4px;
+  }
+  .main-nav .download-button button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .hero {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .hero h2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero-presentation {
+    width: 60%;
+  }
+  .hero-presentation img {
+    margin-top: 20px;
+  }
+  .hero-image {
+    width: 40%;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  .proyectos {
+    padding: 15px;
+  }
+  .proyectos-description {
+    margin-bottom: 40px;
+  }
+  .proyectos-description h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 10px;
+  }
+  .proyectos-description p {
+    width: 100%;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .proyectos-container {
+    background: white;
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .niko {
+    width: 55%;
+    top: 20px;
+    right: 20px;
+    padding: 12px;
+  }
+  .niko p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .niko-contents {
+    height: 200px;
+    background-repeat: round;
+  }
+  .niko h3 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .niko-btn1 {
+    padding: 4px;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .niko-btn2 {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .prince-contents h3 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .prince-contents p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .prince-contents {
+    width: 55%;
+    top: 20px;
+    right: 20px;
+    padding: 12px;
+  }
+  .prince {
+    height: 300px;
+  }
+  .amazonas-contents h3 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .amazonas-contents p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .amazonas-contents {
+    height: 250px;
+    padding: 15px;
+    top: 30px;
+  }
+  .amazon {
+    height: 300px;
+  }
+  .ver-proyectos {
+    gap: 5px;
+    margin: 20px auto auto;
+    padding: 5px 10px;
+  }
+  .services {
+    padding: 15px;
+  }
+  .services-title {
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .services-contents h3 {
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-block: 20px;
+  }
+  .services-button {
+    padding: 0px 0px;
+    gap: 3px;
+  }
+  .services-contents p {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 0px;
+  }
+  .testimonials-container {
+    padding: 10px;
+  }
+  .name-testimonio {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .testimonio {
+    height: 240px;
+    padding: 0 12px;
+  }
+  .testimonio.section {
+    margin-bottom: 5px;
+  }
+  .image img {
+    margin-top: 0px;
+  }
+  .contacto {
+    width: 70%;
+    padding: 30px;
+  }
+  .contacto h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .contacto p {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 15px 0;
+    width: 100%;
+  }
+  .contacto-container {
+    padding: 40px 0;
+  }
+  .footer-container {
+    height: 50px;
+    padding: 10px;
+  }
+  .p-footer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 8px;
+    line-height: 0px;
+  }
+  .p-footer img {
+    width: 15px;
+    position: relative;
+    top: 0px;
+  }
+  .footer-icon {
+    display: flex;
+    gap: 10px;
+  }
 }
